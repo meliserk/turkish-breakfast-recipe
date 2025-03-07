@@ -6,7 +6,7 @@
     <style>
       /* Genel stil ayarları */
       body {
-        font-family: 'Arial', sans-serif;
+        font-family: 'Georgia', serif; /* Tamamen Georgia fontu */
         background-color: #f0f0f0;
         margin: 0;
         padding: 0;
@@ -15,17 +15,17 @@
 
       h1 {
         text-align: center;
-        color: #3498db; /* Başlık için mavi renk */
-        font-family: 'Verdana', sans-serif;
+        color: #2c3e50;  /* Başlık rengini buraya ekliyoruz */
         font-size: 36px;
         margin-top: 20px;
+        font-family: 'Georgia', serif;  /* Başlık için Georgia fontu */
       }
 
       h2 {
-        color: #3498db; /* H2 başlıklar için de mavi renk */
-        font-family: 'Verdana', sans-serif;
+        color: #2c3e50;  /* Başlık rengini buraya ekliyoruz */
         font-size: 28px;
         margin-top: 30px;
+        font-family: 'Georgia', serif;  /* Başlık için Georgia fontu */
       }
 
       p {
@@ -43,62 +43,27 @@
         border-radius: 15px;
         margin: 20px 0;
         display: block;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
       }
 
-      /* Yazı ve resim düzeni */
-      .content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 20px;
+      /* Liste stil ayarları */
+      ul {
+        max-width: 800px;
+        margin: 20px auto;
+        padding-left: 20px;
       }
 
-      .content img {
-        max-width: 40%;
-        margin-right: 20px;
-      }
-
-      /* Liste ve talimatlar */
-      ul, ol {
+      ul li {
         font-size: 18px;
-        line-height: 1.6;
-        margin-left: 40px;
+        line-height: 1.8;
+        color: #2c3e50;
+        padding-bottom: 5px;
       }
-    </style>
-  </head>
-  <body>
-    <h1>la ricetta della colazione turca di e per roberto</h1>
-    <div class="content">
-      <img src="https://raw.githubusercontent.com/meliserk/turkish-breakfast-recipe/main/images/1.jpg" alt="kahvalti1">
-      <p>This recipe is prepared by Melis for Roberto, because he loves it. :) To create the perfect breakfast or brunch, it is highly recommended to go to Istanbul and get the ingredients, but for sure you can use the ones you can find around and create your own version of it.</p>
-    </div>
-    
-    <h2>Ingredients</h2>
-    <ul>
-      <li>yumurta</li>
-      <li>sucuk</li>
-      <li>pastirma</li>
-      <li>erzincan tulum peyniri</li>
-      <li>tahin pekmez</li>
-      <li>bal-kaymak</li>
-      <li>salata</li>
-      <li>taze ekmek</li>
-      <li>zeytinyagi</li>
-      <li>tereyagi</li>  
-      <li>e tanto amore</li>
-      <li>ÇAY!</li> 
-    </ul>
 
-    <h2>Instructions</h2>
-    <ol>
-      <li>Per prima cosa, prepara il tè, disponi gli alimenti da colazione; formaggio, salame, olive, frutta secca e pastirma sui piatti e metti la tavola.</li>
-      <li>Poi, sciogli l'olio d'oliva e il burro in una padella. Taglia il sucuk e mettilo nella padella. Giralo delicatamente e aggiungi del peperoncino rosso sopra.</li>
-      <li>Se vuoi, puoi rompere un uovo sopra o preparare una frittata separata in una padella a parte. Fai attenzione che l'uovo non resti troppo liquido.</li>
-      <li>Puoi anche tostare alcune fette di pane. Ecco fatto!</li>
-    </ol>
-    
-    <img src="https://raw.githubusercontent.com/meliserk/turkish-breakfast-recipe/main/images/2.jpg" alt="kahvalti2">
-  </body>
-</html>
+      ol {
+        max-width: 800px;
+        margin: 20px auto;
+        padding-left: 20px;
+      }
+
+  

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
   <head>
     <title>per roberto</title>
     <meta charset="UTF-8">
@@ -7,21 +7,21 @@
       /* Genel stil ayarları */
       body {
         font-family: 'Arial', sans-serif;
-        background-color: #fafafa;
+        background-color: #f0f0f0;
         margin: 0;
         padding: 0;
         color: #333;
       }
 
-      h1, h2 {
+      h1 {
         text-align: center;
-        color: #3498db; /* Başlıklar için mavi renk */
-        font-family: 'Arial', sans-serif;
+        color: #3498db;
         font-size: 36px;
         margin-top: 20px;
       }
 
       h2 {
+        color: #3498db;
         font-size: 28px;
         margin-top: 30px;
       }
@@ -32,42 +32,47 @@
         max-width: 800px;
         margin: 0 auto;
         padding: 0 20px;
-        color: #555; /* Daha yumuşak bir gri */
-      }
-
-      /* Fotoğraf ve yazı düzeni */
-      .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 20px;
-        padding: 0 20px;
-      }
-
-      .text {
-        flex: 1;
-        padding-left: 20px;
-      }
-
-      .image {
-        max-width: 50%;
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       }
 
       /* Fotoğraf stil ayarları */
+      .photo-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+      }
+
       img {
-        width: 100%;
-        max-width: 500px;
+        max-width: 45%;
         border-radius: 15px;
-        margin: 20px 0;
-        display: block;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Yazı ve fotoğrafı hizalamak için */
+      .description {
+        max-width: 45%;
+        font-size: 18px;
+        line-height: 1.8;
+        color: #2c3e50;
       }
     </style>
   </head>
   <body>
     <h1>la ricetta della colazione turca di e per roberto</h1>
-    <div class="container">
-      <img class="image" src="https://raw.githubusercontent.com/meliserk/turkish-breakfast-recipe/main/images/1.jpg" alt="kahvalti1">
-      <div class="text">
-        <p>this recipe is prepared by melis per oggi matina per roberto. perché l
+
+    <div class="photo-container">
+      <img src="https://raw.githubusercontent.com/meliserk/turkish-breakfast-recipe/main/images/1.jpg" alt="kahvalti1">
+      <div class="description">
+        <p>
+          This recipe is prepared by Melis per oggi matina per Roberto. Perché lo ama. :) 
+          To create the perfect breakfast or brunch, it is highly recommended to go to Istanbul and get the ingredients, 
+          but for sure you can use the ones you can find around and create your own version of it.
+        </p>
+      </div>
+    </div>
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>yumurta</li>
+      <li>sucuk</li>
+      <li>pa
